@@ -5,13 +5,7 @@ root = true
 [*]
 end_of_line = lf
 insert_final_newline = true
-
-# Matches multiple files with brace expansion notation
-# Set default charset
-[*]
+trim_trailing_witespace = true
 charset = utf-8
-
-# 2 tabs indentation
-[*]
 indent_style = tab
 indent_size = 2
