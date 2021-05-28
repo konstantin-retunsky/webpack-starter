@@ -1,4 +1,4 @@
-export const createLogger = name => {
+export const createLogger = (name) => {
 	const logs = []
 
 	return {
@@ -10,6 +10,6 @@ export const createLogger = name => {
 		},
 		getLogs() {
 			return logs
-		}
+		},
 	}
 }

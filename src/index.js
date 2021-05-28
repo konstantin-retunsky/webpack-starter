@@ -1,9 +1,9 @@
 import { createLogger } from "./scripts/logger/logger.js"
-import "./index.scss";
+import "./index.scss"
 
-console.log('tet')
+console.log("tet")
 
-const logger = createLogger('user login')
-logger.log('login success')
+const logger = createLogger("user login")
+logger.log("login success")
 
 console.log(logger)
