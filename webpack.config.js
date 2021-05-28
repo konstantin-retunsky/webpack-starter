@@ -1,8 +1,8 @@
-const path = require("path")
-const HtmlWebpackPlugin = require("html-webpack-plugin")
-const MiniCssExtractPlugin = require("mini-css-extract-plugin")
-const { CleanWebpackPlugin } = require("clean-webpack-plugin")
-const webpack = require("webpack")
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const webpack = require("webpack");
 
 module.exports = (env, argv) => {
 	return {
@@ -61,5 +61,5 @@ module.exports = (env, argv) => {
 			open: true,
 			hot: true,
 		},
-	}
-}
+	};
+};
