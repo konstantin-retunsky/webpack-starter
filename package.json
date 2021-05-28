@@ -18,9 +18,9 @@
 		}
 	},
 	"lint-staged": {
-		"*.js": {
+		"*.js": [
 			"npm run eslint"
-		}
+		]
 	},
 	"author": "",
 	"license": "ISC",
