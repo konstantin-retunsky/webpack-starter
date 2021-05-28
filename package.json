@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest",
-		"test:watch": "jest --watchAll",
+		"test": "editorconfig-checker && jest",
+		"test:watch": "editorconfig-checker && jest --watchAll",
 		"build": "webpack --mode=production",
 		"start": "webpack serve --mode=development --devtool=eval-source-map",
 		"serve": "webpack serve"
